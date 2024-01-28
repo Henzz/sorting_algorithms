@@ -19,7 +19,9 @@ typedef struct listint_s
 void print_array(const int *array, size_t size);
 /* Prints a list of integers */
 void print_list(const listint_t *list);
-/* Sorts an array of integers in ascending order */
+/* Sorts an array of integers in ascending order usint the Bubble Sort algorithm */
 void bubble_sort(int *array, size_t size);
+/* Sorts a doubly linked list of integers in ascending order using the Insertion Sort algorithm */
+void insertion_sort_list(listint_t **list);
 
 #endif /* SORT_H */
