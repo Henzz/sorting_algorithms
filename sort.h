@@ -23,5 +23,6 @@ void print_list(const listint_t *list);
 void bubble_sort(int *array, size_t size);
 /* Sorts a doubly linked list of integers in ascending order using the Insertion Sort algorithm */
 void insertion_sort_list(listint_t **list);
-
+/* Sorts an array of integers in ascending order using the Selection sort algorithm */
+void selection_sort(int *array, size_t size);
 #endif /* SORT_H */
